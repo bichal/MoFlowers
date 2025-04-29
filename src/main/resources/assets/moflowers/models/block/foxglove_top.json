@@ -1,0 +1,7 @@
+{
+    "parent": "moflowers:block/tintable_in_cross",
+    "textures": {
+        "plant": "moflowers:block/foxglove_top",
+        "stem": "moflowers:block/foxglove_top_stem"
+    }
+}

@@ -1,0 +1,169 @@
+{
+  "criteria": {
+    "got_calendula": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:calendula"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_closed_pale_wildflowers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:closed_pale_wildflowers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_foxglove": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:foxglove"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_hebea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:hebea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_lavender": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:lavender"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_lily_pad_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:lily_pad_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_magenta_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:magenta_petals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_moon_cactus_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:moon_cactus_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_open_pale_wildflowers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:open_pale_wildflowers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_sunflowers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:sunflowers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_sweet_blue_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:sweet_blue_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_sweet_glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:sweet_glow_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_tall_lavender": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:tall_lavender"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry",
+    "description": {
+      "translate": "advancement.moflowers.get_first_moflowers_flower.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moflowers:closed_pale_wildflowers"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.moflowers.get_first_moflowers_flower.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_closed_pale_wildflowers",
+      "got_open_pale_wildflowers",
+      "got_magenta_petals",
+      "got_moon_cactus_flower",
+      "got_sunflowers",
+      "got_tall_lavender",
+      "got_lavender",
+      "got_lily_pad_flower",
+      "got_foxglove",
+      "got_calendula",
+      "got_hebea",
+      "got_sweet_blue_berries",
+      "got_sweet_glow_berries"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  },
+  "sends_telemetry_event": true
+}

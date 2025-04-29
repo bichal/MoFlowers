@@ -1,0 +1,71 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "minecraft:block/sunflower_top",
+        "sunflower_top": "minecraft:block/sunflower_top",
+        "front": "minecraft:block/sunflower_front",
+        "back": "minecraft:block/sunflower_back"
+    },
+    "elements": [
+        {
+            "from": [12, 0, 0],
+            "to": [12, 1, 8],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "y", "origin": [12, 1, 4]},
+            "faces": {
+                "east": {"uv": [12, 15, 4, 16], "texture": "#sunflower_top"},
+                "west": {"uv": [12, 15, 4, 16], "texture": "#sunflower_top"}
+            }
+        },
+        {
+            "from": [8, 0, 4],
+            "to": [16, 1, 4],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "y", "origin": [12, 1, 4]},
+            "faces": {
+                "north": {"uv": [12, 15, 4, 16], "texture": "#sunflower_top"},
+                "south": {"uv": [12, 15, 4, 16], "texture": "#sunflower_top"}
+            }
+        },
+        {
+            "from": [4, 0, 3],
+            "to": [4, 8, 11],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "y", "origin": [4, 1, 7]},
+            "faces": {
+                "east": {"uv": [4, 8, 12, 16], "texture": "#sunflower_top"},
+                "west": {"uv": [12, 8, 4, 16], "texture": "#sunflower_top"}
+            }
+        },
+        {
+            "from": [0, 0, 7],
+            "to": [8, 8, 7],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "y", "origin": [4, 1, 7]},
+            "faces": {
+                "north": {"uv": [12, 8, 4, 16], "texture": "#sunflower_top"},
+                "south": {"uv": [4, 8, 12, 16], "texture": "#sunflower_top"}
+            }
+        },
+        {
+            "from": [5.025, -1, 0],
+            "to": [5.025, 15, 14],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "z", "origin": [3.425, 8, 7], "rescale": true},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#front"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#back"}
+            }
+        },
+        {
+            "from": [13.025, -8, -3],
+            "to": [13.025, 8, 11],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "z", "origin": [11.425, 1, 4], "rescale": true},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#front"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#back"}
+            }
+        }
+    ]
+}

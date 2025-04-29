@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "moflowers:block/sweet_glow_berry_bush_stage1"
+    }
+}

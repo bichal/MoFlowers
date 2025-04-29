@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "moflowers",
+    "version": "${version}",
+    "name": "Mo Flowers",
+    "description": "",
+    "authors": [
+        "Bichal"
+    ],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "icon": "assets/moflowers/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "net.bichal.moflowers.client.MoFlowersClient"
+        ],
+        "main": [
+            "net.bichal.moflowers.MoFlowers"
+        ],
+        "fabric-datagen": [
+            "net.bichal.moflowers.datagen.MoFlowersDataGenerator"
+        ],
+        "moflowers:api": [
+            "net.bichal.moflowers.api.impl.MoFlowersAPIImpl"
+        ]
+    },
+    "provides": [
+        "moflowers-api"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}

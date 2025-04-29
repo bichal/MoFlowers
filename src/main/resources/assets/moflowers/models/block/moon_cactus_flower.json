@@ -1,0 +1,153 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "moon_cactus_flower_up": "moflowers:block/moon_cactus_flower_up",
+        "particle": "moflowers:block/moon_cactus_flower_down",
+        "moon_cactus_flower_down": "moflowers:block/moon_cactus_flower_down",
+        "moon_cactus_flower_stem": "moflowers:block/moon_cactus_flower_stem"
+    },
+    "elements": [
+        {
+            "from": [2, 0.5, 8],
+            "to": [14, 12.5, 8],
+            "shade": false,
+            "rotation": {"angle": 45, "axis": "x", "origin": [8, 0.5, 8]},
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [2, 0.5, 8],
+            "to": [14, 12.5, 8],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "x", "origin": [8, 0.5, 8]},
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"}
+            }
+        },
+        {
+            "from": [8, 0.5, 2],
+            "to": [8, 12.5, 14],
+            "shade": false,
+            "rotation": {"angle": -45, "axis": "z", "origin": [8, 0.5, 8]},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"}
+            }
+        },
+        {
+            "from": [8, 0.5, 2],
+            "to": [8, 12.5, 14],
+            "shade": false,
+            "rotation": {"angle": 45, "axis": "z", "origin": [8, 0.5, 8]},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [4, 2, 8],
+            "to": [12, 10, 8],
+            "shade": false,
+            "rotation": {"angle": -22.5, "axis": "x", "origin": [8, 2, 8]},
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"}
+            }
+        },
+        {
+            "from": [8, 2, 4],
+            "to": [8, 10, 12],
+            "shade": false,
+            "rotation": {"angle": -22.5, "axis": "z", "origin": [8, 2, 8]},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"}
+            }
+        },
+        {
+            "from": [4, 2, 8],
+            "to": [12, 10, 8],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "x", "origin": [8, 2, 8]},
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [8, 2, 4],
+            "to": [8, 10, 12],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "z", "origin": [8, 2, 8]},
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [8, 0, 1],
+            "to": [22, 0, 15],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "z", "origin": [8, 0, 8]},
+            "faces": {
+                "up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#moon_cactus_flower_up"},
+                "down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [1, 0, -6],
+            "to": [15, 0, 8],
+            "shade": false,
+            "rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 8]},
+            "faces": {
+                "up": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_up"},
+                "down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [-6, 0, 1],
+            "to": [8, 0, 15],
+            "shade": false,
+            "rotation": {"angle": -22.5, "axis": "z", "origin": [8, 0, 8]},
+            "faces": {
+                "up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#moon_cactus_flower_up"},
+                "down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [1, 0, 8],
+            "to": [15, 0, 22],
+            "shade": false,
+            "rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0, 8]},
+            "faces": {
+                "up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#moon_cactus_flower_up"},
+                "down": {"uv": [0, 0, 16, 16], "texture": "#moon_cactus_flower_down"}
+            }
+        },
+        {
+            "from": [8, 0, 7.5],
+            "to": [8, 2, 8.5],
+            "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 7.5]},
+            "faces": {
+                "north": {"uv": [0, 0, 0, 3], "texture": "#moon_cactus_flower_stem"},
+                "east": {"uv": [0, 5, 1, 7], "texture": "#moon_cactus_flower_stem"},
+                "south": {"uv": [0, 0, 0, 3], "texture": "#moon_cactus_flower_stem"},
+                "west": {"uv": [0, 5, 1, 7], "texture": "#moon_cactus_flower_stem"},
+                "up": {"uv": [0, 1, 0, 0], "texture": "#moon_cactus_flower_stem"},
+                "down": {"uv": [0, 0, 0, 1], "texture": "#moon_cactus_flower_stem"}
+            }
+        },
+        {
+            "from": [7.5, 0, 8],
+            "to": [8.5, 2, 8],
+            "rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
+            "faces": {
+                "north": {"uv": [0, 5, 1, 7], "texture": "#moon_cactus_flower_stem"},
+                "south": {"uv": [0, 5, 1, 7], "texture": "#moon_cactus_flower_stem"}
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "moflowers:block/tintable_cross",
+    "textures": {
+        "cross": "moflowers:block/tall_lavender_bottom"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "moflowers:block/lily_pad_flower"
+            },
+            {
+                "model": "moflowers:block/lily_pad_flower",
+                "y": 90
+            },
+            {
+                "model": "moflowers:block/lily_pad_flower",
+                "y": 180
+            },
+            {
+                "model": "moflowers:block/lily_pad_flower",
+                "y": 270
+            }
+        ]
+    }
+}

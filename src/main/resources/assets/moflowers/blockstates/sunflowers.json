@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "moflowers:block/sunflowers_bottom"
+        },
+        "half=upper": {
+            "model": "moflowers:block/sunflowers_top"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "moflowers:block/flowerbed_emissive_3",
+    "textures": {
+        "flowerbed": "moflowers:block/open_pale_wildflowers",
+        "stem": "moflowers:block/pale_wildflowers_stem"
+    }
+}

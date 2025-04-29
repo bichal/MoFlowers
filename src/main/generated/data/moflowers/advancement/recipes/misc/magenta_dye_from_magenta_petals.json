@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:magenta_petals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:magenta_dye_from_magenta_petals"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magenta_petals"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:magenta_dye_from_magenta_petals"
+    ]
+  }
+}

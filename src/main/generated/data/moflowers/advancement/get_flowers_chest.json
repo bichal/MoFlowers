@@ -1,0 +1,37 @@
+{
+  "parent": "moflowers:get_first_moflowers_flower",
+  "criteria": {
+    "got_flowers_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:flowers_chest"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.moflowers.get_flowers_chest.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moflowers:closed_pale_wildflowers"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.moflowers.get_flowers_chest.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_flowers_chest"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": true
+}

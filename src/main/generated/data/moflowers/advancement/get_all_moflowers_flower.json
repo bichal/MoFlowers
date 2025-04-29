@@ -1,0 +1,73 @@
+{
+  "parent": "moflowers:get_first_moflowers_flower",
+  "criteria": {
+    "got_all_moflowers_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moflowers:closed_pale_wildflowers"
+          },
+          {
+            "items": "moflowers:open_pale_wildflowers"
+          },
+          {
+            "items": "moflowers:magenta_petals"
+          },
+          {
+            "items": "moflowers:moon_cactus_flower"
+          },
+          {
+            "items": "moflowers:sunflowers"
+          },
+          {
+            "items": "moflowers:tall_lavender"
+          },
+          {
+            "items": "moflowers:lavender"
+          },
+          {
+            "items": "moflowers:lily_pad_flower"
+          },
+          {
+            "items": "moflowers:foxglove"
+          },
+          {
+            "items": "moflowers:calendula"
+          },
+          {
+            "items": "moflowers:hebea"
+          },
+          {
+            "items": "moflowers:sweet_blue_berries"
+          },
+          {
+            "items": "moflowers:sweet_glow_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.moflowers.get_all_moflowers_flower.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "moflowers:open_pale_wildflowers"
+    },
+    "title": {
+      "translate": "advancement.moflowers.get_all_moflowers_flower.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_all_moflowers_flower"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  },
+  "sends_telemetry_event": true
+}

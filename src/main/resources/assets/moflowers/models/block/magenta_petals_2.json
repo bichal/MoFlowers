@@ -1,0 +1,7 @@
+{
+    "parent": "moflowers:block/flowerbed_2",
+    "textures": {
+        "flowerbed": "moflowers:block/magenta_petals",
+        "stem": "moflowers:block/magenta_petals_stem"
+    }
+}

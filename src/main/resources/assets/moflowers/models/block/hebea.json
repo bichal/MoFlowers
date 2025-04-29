@@ -1,0 +1,7 @@
+{
+    "parent": "moflowers:block/tintable_in_cross",
+    "textures": {
+        "plant": "moflowers:block/hebea",
+        "stem": "moflowers:block/hebea_stem"
+    }
+}

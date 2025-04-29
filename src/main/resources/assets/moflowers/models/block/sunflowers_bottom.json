@@ -1,0 +1,82 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/sunflower_bottom",
+		"sunflower_bottom": "block/sunflower_bottom",
+		"sunflower_top": "block/sunflower_top",
+		"front": "block/sunflower_front",
+		"back": "block/sunflower_back"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 12],
+			"to": [14, 10, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [10, 1, 12]},
+			"faces": {
+				"north": {"uv": [4, 6, 12, 16], "texture": "#sunflower_top"},
+				"south": {"uv": [4, 6, 12, 16], "texture": "#sunflower_top"}
+			}
+		},
+		{
+			"from": [10, 0, 8],
+			"to": [10, 10, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [10, 1, 12]},
+			"faces": {
+				"east": {"uv": [4, 6, 12, 16], "texture": "#sunflower_top"},
+				"west": {"uv": [4, 6, 12, 16], "texture": "#sunflower_top"}
+			}
+		},
+		{
+			"from": [11.025, 1, 5],
+			"to": [11.025, 17, 19],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.425, 10, 12], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#back"}
+			}
+		},
+		{
+			"from": [8, 0, 4],
+			"to": [16, 16, 4],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [12, 1, 4]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"}
+			}
+		},
+		{
+			"from": [12, 0, 0],
+			"to": [12, 16, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [12, 1, 4]},
+			"faces": {
+				"east": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"}
+			}
+		},
+		{
+			"from": [0, 0, 7],
+			"to": [8, 16, 7],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 1, 7]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"},
+				"south": {"uv": [12, 0, 4, 16], "texture": "#sunflower_bottom"}
+			}
+		},
+		{
+			"from": [4, 0, 3],
+			"to": [4, 16, 11],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 1, 7]},
+			"faces": {
+				"east": {"uv": [12, 0, 4, 16], "texture": "#sunflower_bottom"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#sunflower_bottom"}
+			}
+		}
+	]
+}
