@@ -100,6 +100,6 @@ api.registerFlowerRegistrationCallback(flowerData ->{
 <h5 align="center">For more details, see the JavaDocs in the api package or explore the example usages in the mod
     source.</h5>
     
-![FooterBottom](https://github.com/user-attachments/assets/fdff453f-bcd3-474c-b0a0-5ba8ba58a49c)
+![FooterBottom](https://github.com/user-attachments/assets/95f9bf24-7607-4ca0-947e-3da309c583a6)
 
 <h6 align="center">This mod is licensed is <b>All Rights Reserved</b>.</h6>
