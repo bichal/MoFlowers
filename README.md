@@ -1,4 +1,4 @@
-<h1 align="center">🌸 MoFlowers - Bring New Life to Your Minecraft World! 🌸</h1>
+<h1 align="center">🌸MoFlowers - Bring New Life to Your Minecraft World!🌸</h1>
 
 <p><b>MoFlowers</b> is a Minecraft mod that breathes new life into your adventures by adding a wide variety of unique flowers, berry bushes, and decorative blocks. Every plant is carefully designed to blend naturally into the world, offering new mechanics, vibrant biomes, and creative possibilities for builders and explorers alike.</p>
 
