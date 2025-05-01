@@ -23,14 +23,10 @@
 3. Place the `.jar` file into your `mods` folder.
 
 <div aling="center">
-    <img src="https://github.com/user-attachments/assets/c10b7d18-1719-4010-a8a8-88cc6d0b11d3">
-    <a href="https://www.curseforge.com/minecraft/mc-mods/moflowers"></a></img>
-    <img src="https://github.com/user-attachments/assets/3fbbf92f-214d-4a43-9e47-4fc0ee259881">
-    <a href="https://modrinth.com/mod/moflowers"></a></img>
-    <img src="https://github.com/user-attachments/assets/7db2e2f5-40a2-4ffb-8d1d-2ee1d1f3099c">
-    <a href="https://github.com/bichal/moflowers"></a></img>
-    <img src="https://github.com/user-attachments/assets/11c5e3ec-da31-41e7-abf9-4afc2e723387">
-    <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files"></img>
+    <a href="https://www.curseforge.com/minecraft/mc-mods/moflowers"><img src="https://github.com/user-attachments/assets/c10b7d18-1719-4010-a8a8-88cc6d0b11d3"></a>
+    <a href="https://modrinth.com/mod/moflowers"><img src="https://github.com/user-attachments/assets/3fbbf92f-214d-4a43-9e47-4fc0ee259881"></a>
+    <a href="https://github.com/bichal/moflowers"><img src="https://github.com/user-attachments/assets/7db2e2f5-40a2-4ffb-8d1d-2ee1d1f3099c"></a>
+    <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files"><img src="https://github.com/user-attachments/assets/11c5e3ec-da31-41e7-abf9-4afc2e723387"></a>
 </div>
 <br>
       
