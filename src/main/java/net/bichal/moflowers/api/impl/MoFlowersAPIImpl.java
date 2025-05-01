@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2025 Bichal.
- * All rights reserved.
- */
-
 package net.bichal.moflowers.api.impl;
 
 import net.bichal.moflowers.api.IMoFlowersAPI;
@@ -16,36 +11,65 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.tag.TagKey;
 
+import java.util.Collection;
+import java.util.Objects;
+import java.util.Optional;
+
 /**
- * Default implementation of the API
+ * Default implementation of the MoFlowers API.
  * Handles registration and querying of flowers and related resources.
  */
 public class MoFlowersAPIImpl implements IMoFlowersAPI {
     @Override
     public void registerFlower(Item flowerItem) {
-        FlowerRegistry.registerFlower(flowerItem);
+        Objects.requireNonNull(flowerItem, "Flower item cannot be null");
+        if (!FlowerRegistry.isRegisteredFlower(flowerItem)) {
+            FlowerRegistry.registerFlower(flowerItem);
+        }
     }
 
     @Override
     public void registerFlowerBlock(Block flowerBlock) {
-        FlowerRegistry.registerFlowerBlock(flowerBlock);
+        Objects.requireNonNull(flowerBlock, "Flower block cannot be null");
+        if (!FlowerRegistry.isRegisteredFlowerBlock(flowerBlock)) {
+            FlowerRegistry.registerFlowerBlock(flowerBlock);
+        }
+    }
+
+    @Override
+    public void registerFlowers(Collection<Item> flowerItems) {
+        if (flowerItems != null) {
+            for (Item item : flowerItems) {
+                registerFlower(item);
+            }
+        }
+    }
+
+    @Override
+    public void registerFlowerBlocks(Collection<Block> flowerBlocks) {
+        if (flowerBlocks != null) {
+            for (Block block : flowerBlocks) {
+                registerFlowerBlock(block);
+            }
+        }
     }
 
     @Override
     public void registerCustomFlower(FlowerData flowerData) {
-        FlowerRegistry.registerFlower(flowerData.item());
-        FlowerRegistry.registerFlowerBlock(flowerData.block());
+        Objects.requireNonNull(flowerData, "FlowerData cannot be null");
+        registerFlower(flowerData.item());
+        registerFlowerBlock(flowerData.block());
         MoFlowersEvents.invokeFlowerRegistration(flowerData);
     }
 
     @Override
     public boolean isMoFlower(Item item) {
-        return FlowerRegistry.isRegisteredFlower(item);
+        return item != null && FlowerRegistry.isRegisteredFlower(item);
     }
 
     @Override
     public boolean isMoFlowerBlock(Block block) {
-        return FlowerRegistry.isRegisteredFlowerBlock(block);
+        return block != null && FlowerRegistry.isRegisteredFlowerBlock(block);
     }
 
     @Override
@@ -59,13 +83,13 @@ public class MoFlowersAPIImpl implements IMoFlowersAPI {
     }
 
     @Override
-    public Item getFlowersChestItem() {
-        return ModItems.FLOWERS_CHEST;
+    public Optional<Item> getFlowersChestItem() {
+        return Optional.ofNullable(ModItems.FLOWERS_CHEST);
     }
 
     @Override
-    public Block getFlowersChestBlock() {
-        return ModBlocks.FLOWERS_CHEST;
+    public Optional<Block> getFlowersChestBlock() {
+        return Optional.ofNullable(ModBlocks.FLOWERS_CHEST);
     }
 
     @Override
