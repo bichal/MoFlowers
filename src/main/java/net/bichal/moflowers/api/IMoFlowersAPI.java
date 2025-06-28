@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2025 Bichal.
- * All rights reserved.
- */
-
 package net.bichal.moflowers.api;
 
 import net.bichal.moflowers.api.event.IFlowerRegistrationCallback;
@@ -11,76 +6,67 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.tag.TagKey;
 
+import java.util.Collection;
+import java.util.Optional;
+
 public interface IMoFlowersAPI {
     /**
-     * Registers a new flower item as a mod flower.
-     *
-     * @param flowerItem The item to register.
+     * Registers a new item as a flower of the mod.
      */
     void registerFlower(Item flowerItem);
 
     /**
-     * Registers a new flower block as a mod flower.
-     *
-     * @param flowerBlock The block to register.
+     * Registers a new block as a flower of the mod.
      */
     void registerFlowerBlock(Block flowerBlock);
 
     /**
+     * Registers multiple items as flowers of the mod.
+     */
+    void registerFlowers(Collection<Item> flowerItems);
+
+    /**
+     * Registers multiple blocks as flowers of the mod.
+     */
+    void registerFlowerBlocks(Collection<Block> flowerBlocks);
+
+    /**
      * Registers a custom flower with detailed data.
-     *
-     * @param flowerData The flower data to register.
      */
     void registerCustomFlower(FlowerData flowerData);
 
     /**
-     * Checks if the given item is a registered mod flower.
-     *
-     * @param item The item to check.
-     * @return True if the item is a MoFlower, false otherwise.
+     * Checks if the item is registered as a mod flower.
      */
     boolean isMoFlower(Item item);
 
     /**
-     * Checks if the given block is a registered MoFlower block.
-     *
-     * @param block The block to check.
-     * @return True if the block is a MoFlower block, false otherwise.
+     * Checks if the block is registered as a mod flower.
      */
     boolean isMoFlowerBlock(Block block);
 
     /**
-     * Gets the tag containing all MoFlowers items.
-     *
-     * @return The item tag for MoFlowers.
+     * Returns the tag for mod flower items.
      */
     TagKey<Item> getFlowersTag();
 
     /**
-     * Gets the tag containing all MoFlowers blocks.
-     *
-     * @return The block tag for MoFlowers.
+     * Returns the tag for mod flower blocks.
      */
     TagKey<Block> getFlowerBlocksTag();
 
     /**
-     * Gets the item for the Flowers Chest.
-     *
-     * @return The Flowers Chest item.
+     * Returns the flower chest item, if present.
      */
-    Item getFlowersChestItem();
+    Optional<Item> getFlowersChestItem();
 
     /**
-     * Gets the block for the Flowers Chest.
-     *
-     * @return The Flowers Chest block.
+     * Returns the flower chest block, if present.
      */
-    Block getFlowersChestBlock();
+    Optional<Block> getFlowersChestBlock();
 
     /**
-     * Registers a callback to be invoked when a flower is registered.
-     *
-     * @param callback The callback to register.
+     * Registers a callback invoked when a flower is registered.
      */
     void registerFlowerRegistrationCallback(IFlowerRegistrationCallback callback);
 }
